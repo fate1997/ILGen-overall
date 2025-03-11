@@ -1,0 +1,10 @@
+cation_name,anion_name,cation_smiles,anion_smiles,melting_point,dielectric_constant,molecular_volume,delta_latt_H,delta_latt_S,delta_latt_G,delta_solv_G,delta_fus_G
+[EMIM],[BF4],CCN1C=C[N+](=C1)C,[B-](F)(F)(F)F,15,12.9,0.229,492,0.324,395,-418,-23
+[EMIM],[TfO],CCN1C=C[N+](=C1)C,C(F)(F)(F)S(=O)(=O)[O-],-9,15.1,0.265,464,0.339,363,-404,-41
+[EMIM],[Tf2N],CCN1C=C[N+](=C1)C,C(F)(F)(F)S(=NS(=O)(=O)C(F)(F)F)(=O)[O-],-19,12.3,0.388,425,0.370,320,-364,-44
+[BMIM],[PF6],CCCCN1C=C[N+](=C1)C,F[P-](F)(F)(F)(F)F,9,11.4,0.305,457,0.325,360,-385,-25
+[BMIM],[TfO],CCCCN1C=C[N+](=C1)C,C(F)(F)(F)S(=O)(=O)[O-],13,13.2,0.327,449,0.346,346,-395,-49
+[BMIM],[Tf2N],CCCCN1C=C[N+](=C1)C,C(F)(F)(F)S(=NS(=O)(=O)C(F)(F)F)(=O)[O-],-5,11.6,0.428,420,0.377,308,-358,-50
+[C5MIM],[Tf2N],CCCCCN1C=C[N+](=C1)C,C(F)(F)(F)S(=NS(=O)(=O)C(F)(F)F)(=O)[O-],-10,11.4,0.451,415,0.380,302,-357,-55
+[BPy],[Tf2N],CCCC[N+]1=CC=CC=C1,C(F)(F)(F)S(=NS(=O)(=O)C(F)(F)F)(=O)[O-],23,11.5,0.430,420,0.353,315,-358,-43
+[BMPyr],[Tf2N],CCCC[N+]1(CCCC1)C,C(F)(F)(F)S(=NS(=O)(=O)C(F)(F)F)(=O)[O-],-9,11.9,0.453,414,0.345,311,-356,-45

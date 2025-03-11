@@ -1,0 +1,53 @@
+dataset:
+    name: smiles_seq
+    save_processed: true
+    force_reload: false
+    processed_path: ./output/processed_IL.pt
+    vocab_path: null
+    additional_cols: []
+    raw_path: ./database/expanded-ILs.csv
+featurizer:
+    name: smiles_seq
+    seq_len: 256
+model:
+    name: chemical_vae
+    num_classes: 0
+    consider_label: false
+    dropout: 0.1
+    dec_num_layers: 1
+    dec_hidden_dim: 501
+    emb_dim: 128
+    latent_dim: 128
+    enc_num_layers: 1
+    enc_hidden_dim: 292
+    vocab_size: 43
+splitter:
+    name: random
+    seed: 42
+    batch_size: 128
+    split_test: true
+    frac_val: 0.1
+    frac_train: 0.8
+loss_fn:
+    num_epochs: 100
+    name: vae_loss
+    ratio: 0.7
+    n_cycles: 5
+    end_kl_weight: 0.0025
+    start_kl_weight: 0.0
+optimizer: {}
+scheduler:
+    name: none
+general:
+    log_interval: 5
+    save_interval: 10
+    output_folder: output
+    lr: 0.0001
+    desc: IL_latent_dim128_lr4
+    device: cuda:0
+    patience: -1
+    early_stop_metric: val_MAE
+    in_step_mode: false
+    show_tqdm: false
+    warmup_interval: 0
+    scheduler_interval: 1
