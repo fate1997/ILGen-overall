@@ -1,5 +1,5 @@
-# ILGen-overall
-Generate ionic liquids with low-melting points
+# Generate ionic liquids with low-melting points
+
 ![ILGen-overall](workflow.png)
 
 ## Installation
