@@ -1,5 +1,6 @@
 # ILGen-overall
 Generate ionic liquids with low-melting points
+![ILGen-overall](workflow.png)
 
 ## Installation
 1. Please follow the installation part [here](https://github.com/fate1997/MoIma) to install `moima`, which is for VAE generation.
